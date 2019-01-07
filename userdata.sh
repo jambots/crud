@@ -13,6 +13,6 @@ yum install nodejs -y
 echo "Cloning $SOURCE_REPO in $APP_HOME"
 cd "$APP_HOME" || exit 1
 git clone "$SOURCE_REPO"
-cd 'chat-app' || exit 1
+cd 'crud' || exit 1
 npm install --no-optional
 npm run start
