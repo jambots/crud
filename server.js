@@ -1,9 +1,10 @@
 
 var cors = require('cors');
+//  port = process.env.PORT || 3000,
 
 var express = require('express'),
   app = express(),
-  port = process.env.PORT || 3000,
+  port = process.env.PORT || 80,
   mongoose = require('mongoose'),
   Task = require('./api/models/crudModel'), //created model loading here
   bodyParser = require('body-parser');
